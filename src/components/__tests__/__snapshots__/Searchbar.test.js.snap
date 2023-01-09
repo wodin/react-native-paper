@@ -12,11 +12,11 @@ exports[`activity indicator snapshot test 1`] = `
       "right": undefined,
       "shadowColor": "#000",
       "shadowOffset": Object {
-        "height": 1,
+        "height": 0,
         "width": 0,
       },
-      "shadowOpacity": 0.15,
-      "shadowRadius": 3,
+      "shadowOpacity": 0,
+      "shadowRadius": 0,
       "top": undefined,
     }
   }
@@ -27,11 +27,11 @@ exports[`activity indicator snapshot test 1`] = `
       Object {
         "shadowColor": "#000",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 0,
           "width": 0,
         },
-        "shadowOpacity": 0.3,
-        "shadowRadius": 1,
+        "shadowOpacity": 0,
+        "shadowRadius": 0,
       }
     }
   >
@@ -40,11 +40,12 @@ exports[`activity indicator snapshot test 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "rgb(247, 243, 249)",
-          "borderRadius": 4,
+          "backgroundColor": "rgb(238, 232, 244)",
+          "borderRadius": 28,
           "flexDirection": "row",
         }
       }
+      testID="search-bar-container"
     >
       <View
         collapsable={false}
@@ -150,7 +151,7 @@ exports[`activity indicator snapshot test 1`] = `
                 style={
                   Array [
                     Object {
-                      "color": "rgba(28, 27, 31, 0.54)",
+                      "color": "rgba(73, 69, 79, 1)",
                       "fontSize": 24,
                     },
                     Array [
@@ -199,10 +200,16 @@ exports[`activity indicator snapshot test 1`] = `
               "textAlign": "left",
             },
             Object {
-              "color": "rgba(28, 27, 31, 1)",
+              "color": "rgba(73, 69, 79, 1)",
               "fontFamily": "System",
+              "fontSize": 16,
               "fontWeight": "400",
-              "letterSpacing": 0,
+              "letterSpacing": 0.15,
+              "lineHeight": 24,
+            },
+            Object {
+              "minHeight": 56,
+              "paddingLeft": 0,
             },
             undefined,
           ]
@@ -225,7 +232,7 @@ exports[`activity indicator snapshot test 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "margin": 10,
+              "marginHorizontal": 16,
             },
           ]
         }
@@ -425,11 +432,11 @@ exports[`renders with placeholder 1`] = `
       "right": undefined,
       "shadowColor": "#000",
       "shadowOffset": Object {
-        "height": 1,
+        "height": 0,
         "width": 0,
       },
-      "shadowOpacity": 0.15,
-      "shadowRadius": 3,
+      "shadowOpacity": 0,
+      "shadowRadius": 0,
       "top": undefined,
     }
   }
@@ -440,11 +447,11 @@ exports[`renders with placeholder 1`] = `
       Object {
         "shadowColor": "#000",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 0,
           "width": 0,
         },
-        "shadowOpacity": 0.3,
-        "shadowRadius": 1,
+        "shadowOpacity": 0,
+        "shadowRadius": 0,
       }
     }
   >
@@ -453,11 +460,12 @@ exports[`renders with placeholder 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "rgb(247, 243, 249)",
-          "borderRadius": 4,
+          "backgroundColor": "rgb(238, 232, 244)",
+          "borderRadius": 28,
           "flexDirection": "row",
         }
       }
+      testID="search-bar-container"
     >
       <View
         collapsable={false}
@@ -563,7 +571,7 @@ exports[`renders with placeholder 1`] = `
                 style={
                   Array [
                     Object {
-                      "color": "rgba(28, 27, 31, 0.54)",
+                      "color": "rgba(73, 69, 79, 1)",
                       "fontSize": 24,
                     },
                     Array [
@@ -612,10 +620,16 @@ exports[`renders with placeholder 1`] = `
               "textAlign": "left",
             },
             Object {
-              "color": "rgba(28, 27, 31, 1)",
+              "color": "rgba(73, 69, 79, 1)",
               "fontFamily": "System",
+              "fontSize": 16,
               "fontWeight": "400",
-              "letterSpacing": 0,
+              "letterSpacing": 0.15,
+              "lineHeight": 24,
+            },
+            Object {
+              "minHeight": 56,
+              "paddingLeft": 0,
             },
             undefined,
           ]
@@ -625,6 +639,16 @@ exports[`renders with placeholder 1`] = `
       />
       <View
         pointerEvents="none"
+        style={
+          Array [
+            Object {
+              "marginLeft": 16,
+              "position": "absolute",
+              "right": 0,
+            },
+            false,
+          ]
+        }
         testID="search-bar-icon-wrapper"
       >
         <View
@@ -780,11 +804,11 @@ exports[`renders with text 1`] = `
       "right": undefined,
       "shadowColor": "#000",
       "shadowOffset": Object {
-        "height": 1,
+        "height": 0,
         "width": 0,
       },
-      "shadowOpacity": 0.15,
-      "shadowRadius": 3,
+      "shadowOpacity": 0,
+      "shadowRadius": 0,
       "top": undefined,
     }
   }
@@ -795,11 +819,11 @@ exports[`renders with text 1`] = `
       Object {
         "shadowColor": "#000",
         "shadowOffset": Object {
-          "height": 1,
+          "height": 0,
           "width": 0,
         },
-        "shadowOpacity": 0.3,
-        "shadowRadius": 1,
+        "shadowOpacity": 0,
+        "shadowRadius": 0,
       }
     }
   >
@@ -808,11 +832,12 @@ exports[`renders with text 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "rgb(247, 243, 249)",
-          "borderRadius": 4,
+          "backgroundColor": "rgb(238, 232, 244)",
+          "borderRadius": 28,
           "flexDirection": "row",
         }
       }
+      testID="search-bar-container"
     >
       <View
         collapsable={false}
@@ -918,7 +943,7 @@ exports[`renders with text 1`] = `
                 style={
                   Array [
                     Object {
-                      "color": "rgba(28, 27, 31, 0.54)",
+                      "color": "rgba(73, 69, 79, 1)",
                       "fontSize": 24,
                     },
                     Array [
@@ -967,10 +992,16 @@ exports[`renders with text 1`] = `
               "textAlign": "left",
             },
             Object {
-              "color": "rgba(28, 27, 31, 1)",
+              "color": "rgba(73, 69, 79, 1)",
               "fontFamily": "System",
+              "fontSize": 16,
               "fontWeight": "400",
-              "letterSpacing": 0,
+              "letterSpacing": 0.15,
+              "lineHeight": 24,
+            },
+            Object {
+              "minHeight": 56,
+              "paddingLeft": 0,
             },
             undefined,
           ]
@@ -981,6 +1012,12 @@ exports[`renders with text 1`] = `
       />
       <View
         pointerEvents="auto"
+        style={
+          Array [
+            false,
+            false,
+          ]
+        }
         testID="search-bar-icon-wrapper"
       >
         <View
@@ -1087,7 +1124,7 @@ exports[`renders with text 1`] = `
                   style={
                     Array [
                       Object {
-                        "color": "rgba(28, 27, 31, 0.54)",
+                        "color": "rgba(73, 69, 79, 1)",
                         "fontSize": 24,
                       },
                       Array [
